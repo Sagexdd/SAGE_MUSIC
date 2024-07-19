@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
-import config
+from config import START_IMG_URL
 from DAXXMUSIC import app
 from DAXXMUSIC.misc import _boot_
 from DAXXMUSIC.plugins.sudo.sudoers import sudoers_list
